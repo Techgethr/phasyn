@@ -9,7 +9,7 @@ The focus, from our experience working with investment managers, is to make it e
 ----
 - Project URL: https://nescampos.github.io/phasyn/
 - Blockchain: Pharos Network DevNet
-- Smart Contract ID: -
+- Smart Contract ID: [0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3](https://pharosscan.xyz/address/0xd0876600e82CCAa4aA0ab0Cd8bEa9c74F5b46De3)
 - Wallet: For now, Metamask.
 
 ## License
