@@ -170,9 +170,9 @@ async function runProposal() {
                     from: account, 
                     to: investmentContractAddress,
                     data: encodedABI,
-                    gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                    //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                     maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                    //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                    maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
                   },
                 ],
               });
@@ -199,9 +199,9 @@ async function runProposal() {
                     from: account, 
                     to: investmentContractAddress,
                     data: encodedABI,
-                    gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                    //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                     maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                    //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                    maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
                   },
                 ],
               });
@@ -360,9 +360,9 @@ async function voteOnProposal() {
                     from: account, 
                     to: investmentContractAddress,
                     data: encodedABI,
-                    gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                    //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                     maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                    //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                    maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
                   },
                 ],
               });
@@ -538,9 +538,9 @@ async function createProposal() {
                     from: account, 
                     to: investmentContractAddress,
                     data: encodedABI,
-                    gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                    //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                     maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                    //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                    maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
                   },
                 ],
               });
@@ -598,9 +598,9 @@ async function createClub() {
                     from: account, 
                     to: investmentContractAddress,
                     data: encodedABI,
-                    gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                    //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                     maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                    //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                    maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
                   },
                 ],
               });
@@ -693,9 +693,9 @@ async function joinClub() {
                     to: investmentContractAddress,
                     data: encodedABI,
                     value: web3.utils.numberToHex(minimumToEnter),
-                    gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                    //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                     maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                    //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                    maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
                   },
                 ],
               });
@@ -740,9 +740,9 @@ async function leaveClub() {
                     from: account, 
                     to: investmentContractAddress,
                     data: encodedABI,
-                    gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                    //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                     maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                    //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                    maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
                   },
                 ],
               });
@@ -797,9 +797,9 @@ async function contributeClub() {
                     to: investmentContractAddress,
                     data: encodedABI,
                     value: web3.utils.numberToHex(amountAE),
-                    gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                    //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                     maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                    //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                    maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
                   },
                 ],
               });
@@ -922,9 +922,9 @@ async function addComment() {
                 from: account, 
                 to: investmentContractAddress,
                 data: encodedABI,
-                gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
+                //gasLimit: '0x5208', // Customizable by the user during MetaMask confirmation.
                 maxPriorityFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
-                //maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
+                maxFeePerGas: gasPrice, // Customizable by the user during MetaMask confirmation.
               },
             ],
           });
